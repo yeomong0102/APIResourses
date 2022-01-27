@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\Items">
+      <UniqueIdentifier>{12692d40-aa01-4565-85d1-fb8f57ddec38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Maps">
+      <UniqueIdentifier>{0f611f2e-6bce-48ef-95c8-47dcd3f6fdfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters">
+      <UniqueIdentifier>{b552ed5d-460d-42aa-81b9-6dd46891ca69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Pets">
+      <UniqueIdentifier>{920aa76c-0969-48c4-ba8d-75bbf996bfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Playable">
+      <UniqueIdentifier>{39e0bcee-884d-4142-86c9-6e02403264f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Sounds">
+      <UniqueIdentifier>{93e83496-af80-4eff-93e3-1eb61521397e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Bosses">
+      <UniqueIdentifier>{0c79a308-e50b-4323-ac57-d7680a31f196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal">
+      <UniqueIdentifier>{c6024c39-bba7-451c-b72d-2d261dab4987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal\Flys">
+      <UniqueIdentifier>{b466af91-785d-4a0d-acb5-448c0795a5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal\Grotesk">
+      <UniqueIdentifier>{998e83b8-f1a4-4295-abd8-b67b84ff321e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal\Meat">
+      <UniqueIdentifier>{ee8515ee-f302-46e8-84d5-af4ed1794dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal\Moving Wall">
+      <UniqueIdentifier>{cb5838b4-415e-4ba0-a46d-96a61e67b7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Monsters\Nomal\Spiders">
+      <UniqueIdentifier>{43917c48-c9b0-4398-abc5-e5c69b2ccea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Portfolio By Jisung Park.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - Blood of the Martyr.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - Boom.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - Brimstone.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - Godhead.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - Soy Milk.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Items\PC Computer - The Binding of Isaac Rebirth - The Inner Eye.png">
+      <Filter>리소스 파일\Items</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Maps\PC Computer - The Binding of Isaac Rebirth - Basement.png">
+      <Filter>리소스 파일\Maps</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Maps\PC Computer - The Binding of Isaac Rebirth - Depths.png">
+      <Filter>리소스 파일\Maps</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Maps\PC Computer - The Binding of Isaac Rebirth - Doors.png">
+      <Filter>리소스 파일\Maps</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Bosses\PC Computer - The Binding of Isaac Rebirth - Baby Plum.png">
+      <Filter>리소스 파일\Monsters\Bosses</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Bosses\PC Computer - The Binding of Isaac Rebirth - Mega Fatty.png">
+      <Filter>리소스 파일\Monsters\Bosses</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Bosses\PC Computer - The Binding of Isaac Rebirth - Monstro.png">
+      <Filter>리소스 파일\Monsters\Bosses</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Flys\PC Computer - The Binding of Isaac Rebirth - Sucker.png">
+      <Filter>리소스 파일\Monsters\Nomal\Flys</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Flys\PC Computer - The Binding of Isaac Rebirth - Boomfly.png">
+      <Filter>리소스 파일\Monsters\Nomal\Flys</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Flys\PC Computer - The Binding of Isaac Rebirth - Pooter.png">
+      <Filter>리소스 파일\Monsters\Nomal\Flys</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Grotesk\PC Computer - The Binding of Isaac Rebirth - Gazing Globin.png">
+      <Filter>리소스 파일\Monsters\Nomal\Grotesk</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Grotesk\PC Computer - The Binding of Isaac Rebirth - Leaper.png">
+      <Filter>리소스 파일\Monsters\Nomal\Grotesk</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Meat\PC Computer - The Binding of Isaac Rebirth - Clotty.png">
+      <Filter>리소스 파일\Monsters\Nomal\Meat</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Meat\PC Computer - The Binding of Isaac Rebirth - Fatty.png">
+      <Filter>리소스 파일\Monsters\Nomal\Meat</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Moving Wall\PC Computer - The Binding of Isaac Rebirth - Wall Hugger.png">
+      <Filter>리소스 파일\Monsters\Nomal\Moving Wall</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Spider\PC Computer - The Binding of Isaac Rebirth - Blind Creep.png">
+      <Filter>리소스 파일\Monsters\Nomal\Spiders</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Spider\PC Computer - The Binding of Isaac Rebirth - Rage Creep.png">
+      <Filter>리소스 파일\Monsters\Nomal\Spiders</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Monsters\Nomals\Spider\PC Computer - The Binding of Isaac Rebirth - Trite.png">
+      <Filter>리소스 파일\Monsters\Nomal\Spiders</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Pets\PC Computer - The Binding of Isaac Rebirth - Demon Baby.png">
+      <Filter>리소스 파일\Pets</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Playable\PC Computer - The Binding of Isaac Rebirth - Dark Judas.png">
+      <Filter>리소스 파일\Playable</Filter>
+    </Image>
+    <Image Include="..\..\..\Isaac Resorces\Playable\PC Computer - The Binding of Isaac Rebirth - Isaac.png">
+      <Filter>리소스 파일\Playable</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\1up.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\7669.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\7689.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\7702.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\ambushwin.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\animal_squish0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\animal_squish1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\animal_squish2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\band aid pick up.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\batterycharge.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\beep.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bird_death0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bird_death1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bird_death2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bird_flap00.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bird_flap01.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bird_flap02.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Blood_Laser_Large.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Blood_Laser0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Blood_Laser1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodbank spawn0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodbank spawn1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodbank touched.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodshoot0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodshoot1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bloodshoot2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boil hatch.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Book Page Turn 12.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Bug_Hiss.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Grunt_Roar.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Gurgle_Roar.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Lite_Gurgle.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Lite_HIss.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Lite_Roar.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Lite_SloppyRoar.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Boss_Spit_Blob_Barf.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss1_explosions0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss1_explosions1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss1_explosions2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss2_bubbles0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss2_bubbles1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss2intro_errorbuzz.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\boss2intro_remote_alarm.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bossintro.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bulb_Flash_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bulb_Flash_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bullet_Shot0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Bullet_Shot1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\bum shoot off.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\castleportcullis.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\cement_feet0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\cement_feet1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\cement_feet2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\character_select_left.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\character_select_right.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Chest_Drop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Chest_Open.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Choir_unlock.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Coin_Slot.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Cute_Grunt_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Cute_Grunt_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Cute_Grunt_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Burst_Large_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Burst_Large_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Burst_Small_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Burst_Small_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Burst_Small_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Death_Card.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\death_reverse.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\derp.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Devil_Card.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\dimedrop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\dimepickup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Door_Heavy_Close.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Door_Heavy_Open.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fart.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\fetus_feet0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\fetus_feet1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\fetus_flyingwhoosh.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fetus_Jump_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fetus_Jump_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fetus_Land_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fetus_Land_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fetus_Whistle.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Firedeath_hiss.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Floaty_Baby_Roar_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Floaty_Baby_Roar_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Floaty_Baby_Roar_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Fly_Buzz_Loop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\ForestBoss_Stomps0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\ForestBoss_Stomps1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\ForestBoss_Stomps2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Gascan_pour.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\goldenkey.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\gooattach00.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\gooattach01.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\goodeath0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\goodeath1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\goodeath2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\gulp.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\hand lasers.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\heartin.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\heartout.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\hell_portal1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\hell_portal2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Hellboss_Groundpound_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Hellboss_Groundpound_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Holy.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\insect_swarm_loop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Isaac_Hurt_Grunt0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Isaac_Hurt_Grunt1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Isaac_Hurt_Grunt2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacbosswin.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacdies.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacsatanitemget.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacunicorn.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacxpholyroomreveal.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\isaacxpsecretroomreveal2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\itemrecharge.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Key_drop0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\KeyPickup_Gauntlet.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\kiss_lips1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Land_soft.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\layer_change1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\leech0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\leech1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\leech2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\levelbumper.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\LockBreak0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\LockBreak1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\LockBreak2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\m1-2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Maggot_Burst_Out_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Maggot_Burst_Out_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Maggot_Enter_Ground_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Maggot_Enter_Ground_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\maggotcharge0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\maggotcharge1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_Feet_slow0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_impacts_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_impacts_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_impacts_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_jumps0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_jumps1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_jumps2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_jumps3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meat_jumps4.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\meatheadshoot0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\meatheadshoot1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\meatheadshoot2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meaty_Deaths_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meaty_Deaths_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meaty_Deaths_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meaty_Deaths_3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Meaty_Deaths_4.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\metal_blockbreak0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\metal_blockbreak1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\miniboss.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Death_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Death_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_EvilLaugh.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Death_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_EvilLaugh.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Hurt_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Hurt_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Hurt_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Isaac_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Isaac_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Filtered_Isaac_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Grunt_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Grunt_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Grunt_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Grunt_3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Hurt_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Hurt_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Hurt_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Hurt_3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Isaac_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Isaac_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Mom_Vox_Isaac_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_0_A.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_0_B.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_1_A.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_1_B.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_2_A.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_2_B.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_3_A.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_3_B.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_4_A.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_4_B.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Grunt_5.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Roar_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Roar_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Roar_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Roar_3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_A_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_A_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_A_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_4.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_5.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Monster_Yell_B_6.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\nickeldrop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\nickelpickup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\pennydrop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\pennypickup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\pillgoodeffect.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\pillpickup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\plop.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Powerup_spewer.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Powerup_Zelda_Headlift.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Powerup1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Powerup2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Powerup3.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\RedLightning_Zap_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\RedLightning_Zap_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\RedLightning_Zap_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Retro_Keypickup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Rock_crumble 0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Rock_crumble 1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Rock_crumble 2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Rocket Launch.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Rocket_Blast_Death_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan appear.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan blast.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan charge up.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Satan find.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan grow.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan hurt.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan rise up.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan spit 2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan spit.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan stomp 0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan stomp 1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\satan stomp 2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\scamper0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\scamper1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Scared_Whimper_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Scared_Whimper_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Scared_Whimper_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\secret room find.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Shakey_Kid_Roar_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Shakey_Kid_Roar_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Shakey_Kid_Roar_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\shell game.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\shellgame0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\shellgame1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Sink Drain Gurgle.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\slot touched.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\slotspawn0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\slotspawn1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\slotspawn2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\SMB_large_chews_4.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\splatter00.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\splatter01.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\splatter02.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\steam_halfsec.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\stoneshoot0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\stoneshoot1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\stoneshoot2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\summonsound.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\superholy.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\TearImpacts0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\TearImpacts1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\TearImpacts2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Tears_Fire_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Tears_Fire_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Tears_Fire_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\thumbs down.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\thumbsup.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\treasure room enter.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Unlock00.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Vamp_Gulp.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\weapon room.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Wheezy_Cough_0.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Wheezy_Cough_1.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Wheezy_Cough_2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Whoosh_high1.L.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Whoosh_high2.L.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Whoosh_low1.L.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Whoosh_low2.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+    <Media Include="..\..\..\Isaac Resorces\Sound Effects\Zombie_Walker_Kid.mp3">
+      <Filter>리소스 파일\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
